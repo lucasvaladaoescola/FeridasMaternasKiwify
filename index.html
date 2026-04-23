@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feridas Maternas</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@latest"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Lora', serif; }
+    h1,h2,h3 { font-family: 'Playfair Display', serif; }
+
+    #logow { width: 50px; height: auto; }
+    #logof { width: 30%; height: 40%; display: block; margin: 0 auto; }
+    #message { width: 20px; height: 20px; display: block; margin: 0 auto; }
+
+    .video-curso {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin: 40px 0;
+      min-height: 100vh;
+      text-align: center;
+      padding: 4rem 1rem;
+      background: #ffffff;
+    }
+
+    .video-wrapper {
+      width: 100%;
+      max-width: 380px;
+      margin: 0 auto 2rem;
+      aspect-ratio: 9 / 16;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 30px 70px rgba(81, 51, 7, 0.4);
+    }
+
+    .video-wrapper iframe,
+    .video-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .video-container {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto 40px;
+      aspect-ratio: 9 / 16;
+    }
+  </style>
+
+  <!-- Meta Pixel -->
+  <script>
+    !function(f,b,e,v,n,t,s){
+      if(f.fbq)return;
+      n=f.fbq=function(){n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];
+      t=b.createElement(e);t.async=!0;
+      t.src=v;
+      s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)
+    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '13609795718477');
+    fbq('track', 'PageView');
+  </script>
+</head>
+
+<body class="bg-[#f7efe5] text-[#4b3b2a]">
+
+  <!-- HERO -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-br from-[#8F6f47] to-[#5a4633] text-white">
+
+    <img id="logof" src="./img/ChatGPT Image 7 de abr. de 2026, 15_31_11.png" alt="logo" class="mb-6 w-40">
+
+    <p class="text-lg md:text-xl max-w-xl mb-4">
+      Um olhar sistêmico sobre vínculos, emoções e heranças invisíveis
+    </p>
+
+    <p class="text-md max-w-xl mb-8 opacity-90">
+      Um mergulho profundo para curar padrões emocionais, desbloquear sua vida e se abrir para a prosperidade
+    </p>
+
+    <a 
+      href="https://docs.google.com/forms/d/e/1FAIpQLSeZqx69SndAb8DHiJx3I8CjbAwUaOKW3LW46pykBPgpOgEo5g/viewform"
+      onclick="fbq('track', 'Lead')"
+      class="bg-white text-[#6b5844] px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:scale-105 transition"
+    >
+      Quero me inscrever
+    </a>
+
+  </section>
+
+  <!-- SOBRE -->
+  <section class="py-20 px-6 max-w-4xl mx-auto text-center">
+
+    <h2 class="text-3xl mb-6">Sobre o workshop</h2>
+
+    <div class="video-container">
+      <iframe 
+        src="https://www.youtube.com/embed/j_1HB_gm1Og?rel=0&modestbranding=1"
+        title="Apresentação"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <p class="text-lg leading-relaxed">
+      A forma como nos relacionamos com nossa mãe influencia diretamente nossa vida emocional, nossos relacionamentos, nossa autoestima e até nossa prosperidade.
+    </p>
+
+    <p class="mt-4 text-lg leading-relaxed">
+      Neste workshop, você será conduzido a um olhar profundo e sistêmico para compreender padrões invisíveis, lealdades familiares e emoções não resolvidas.
+    </p>
+
+  </section>
+
+  <!-- CONTEÚDO -->
+  <section class="bg-white py-20 px-6">
+
+    <div class="max-w-5xl mx-auto">
+
+      <h2 class="text-3xl text-center mb-12">Conteúdo do Workshop</h2>
+
+      <div class="grid md:grid-cols-2 gap-8 text-lg">
+
+        <ul class="space-y-3">
+          <li>• Bloqueios que impedem de prosperar</li>
+          <li>• Lealdades invisíveis</li>
+          <li>• Influência transgeracional</li>
+          <li>• Feridas emocionais</li>
+          <li>• Amor interrompido</li>
+        </ul>
+
+        <ul class="space-y-3">
+          <li>• Autoestima, relacionamento e dinheiro</li>
+          <li>• Culpa, medo e insegurança</li>
+          <li>• Quebra de padrões</li>
+          <li>• Reconexão ancestral</li>
+          <li>• Prosperidade e leveza</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="py-20 text-center px-6">
+
+    <h2 class="text-3xl mb-6">
+      Você não precisa carregar isso sozinho(a).
+    </h2>
+
+    <p class="mb-8 max-w-xl mx-auto">
+      Esse pode ser o início de uma nova forma de viver.
+    </p>
+
+    <a 
+      href="https://docs.google.com/forms/d/e/1FAIpQLSeZqx69SndAb8DHiJx3I8CjbAwUaOKW3LW46pykBPgpOgEo5g/viewform"
+      class="bg-[#8b6f47] text-white px-10 py-4 rounded-full text-lg shadow-xl hover:scale-105 transition"
+    >
+      Garantir minha vaga
+    </a>
+
+  </section>
+
+  <!-- WHATSAPP -->
+  <a 
+    href="https://wa.me/5519998097820"
+    target="_blank"
+    onclick="fbq('track', 'Contact')"
+    class="fixed bottom-6 right-6 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg flex items-center gap-2"
+  >
+    <img id="logow" src="./img/WhatsApp-Logo.png" alt="">
+  </a>
+
+  <script>
+    lucide.createIcons();
+  </script>
+
+</body>
+</html>
